@@ -14,7 +14,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
       config: {
         url: 'http://localhost:8080',
         realm: 'sdia-realm',
-        clientId: 'customer-client'
+        clientId: 'glsid-bdcc-customer-client'
       },
       initOptions: {
         onLoad: 'check-sso',
